@@ -29,3 +29,5 @@ f you need help with the strategy on how to preprocess your data choice, let me 
 * Print that model to the screen
 
 When finished, make sure that your project is pushed to github.  I will be cloning all of your repositories in order to grade the project and I will post that grade i google classroom.
+
+https://www.kaggle.com/datasets/rabieelkharoua/predict-survival-of-patients-with-heart-failure/data
