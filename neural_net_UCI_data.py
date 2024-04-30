@@ -48,9 +48,9 @@ def normalize(data: List[Tuple[List[float], List[float]]]):
 with open("heart_failure_clinical_records_dataset.csv", "r") as raw_data:
     training_data = [parse_line(line) for line in raw_data.readlines() 
 
-# print(training_data)
+ print(training_data)
 td = normalize(training_data)
-# print(td)
+ print(td)
 
 train, test = train_test_split(td)
 
