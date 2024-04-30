@@ -45,10 +45,8 @@ def normalize(data: List[Tuple[List[float], List[float]]]):
     return data
 
 
-with open("wine_data.txt", "r") as f:
-    training_data = [parse_line(line) for line in f.readlines() if len(line) > 4]
 with open("heart_failure_clinical_records_dataset.csv", "r") as raw_data:
-    training data = [parse_line(line) for line in raw_data.readlines() if len(line)>
+    training_data = [parse_line(line) for line in raw_data.readlines() 
 
 # print(training_data)
 td = normalize(training_data)
