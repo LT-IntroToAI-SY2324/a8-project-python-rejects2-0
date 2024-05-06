@@ -54,7 +54,7 @@ td = normalize(training_data)
 
 train, test = train_test_split(td)
 
-nn = NeuralNet(13, 3, 1)
+nn = NeuralNet(12, 3, 1)
 nn.train(train, iters=1000, print_interval=100, learning_rate=0.2)
 
 for i in nn.test_with_expected(test):
