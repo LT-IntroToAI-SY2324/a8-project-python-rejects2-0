@@ -12,10 +12,10 @@ def parse_line(line: str) -> Tuple[List[float], List[float]]:
         tuple of input list and output list
     """
     tokens = line.split(",")
-    out = float(tokens[0])
-    output = [0 if out == 1 else 0.5 if out == 2 else 1]
+    out = float(tokens[12])
+    output = [out]
 
-    inpt = [float(x) for x in tokens[1:]]
+    inpt = [float(x) for x in tokens[0:12]]
     return (inpt, output)
 
 
